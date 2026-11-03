@@ -1,0 +1,18 @@
+ A Quantas tabelas o banco de dados possui?
+ Responda: 5 tabelas
+
+ B Quantos Clientes cadastrados?
+ Responda: 105 clientes
+
+ C Quantas pizzas Cadastradas?
+ Responda: 41 pizzas
+
+ D Quantas pizzas o pedido nº 3 possui?
+ Responda: 21 pizzas
+
+ E Qual nome do cliente que fez o pedido nº 3?
+ Responda: Adriano da Silva Ferreiro
+
+ F Quais os nomes das pizzas do pedido nº 3?
+ Responda:  Bauru, Atum, Caipira, Calabresa, Aliche, Camponesa e Firense
+
