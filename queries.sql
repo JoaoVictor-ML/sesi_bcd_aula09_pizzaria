@@ -36,6 +36,7 @@ on ip.pizza_id = pz.pizza_id;
 select * from vw_relatorio_pedidos;
 
 -- Desafio 3
+create view vw_relatorio_pedidos_subtotal as
 select
     p.pedido_id,
     sum(pz.valor * ip.quantidade) as valor_total
@@ -47,6 +48,7 @@ on ip.pizza_id = pz.pizza_id
 group by p.pedido_id;
 
 -- Desafio 4
+create view vw_relatorio_pedidos_total as
 select
     p.pedido_id,
     count(ip.pizza_id) as quantidade_pizzas
