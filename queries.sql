@@ -129,3 +129,11 @@ select
     1
 from pizzas
 where nome = 'margherita';
+
+-- Para verificar tudo
+
+select * from clientes
+where nome like '%Gaspar%';
+
+select * from pizzas
+where nome like '%chef%';
